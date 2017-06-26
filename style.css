@@ -1,0 +1,104 @@
+#konteynr{
+	position:relative;
+	margin:10px;
+	height:400px;
+	width:600px;
+	border:1px solid lightblue;
+	background:#000;
+	user-select:none;
+}
+#header{
+	position:absolute;
+	top:0px;
+	width:100%;
+	height:30px;
+	background:#fff;
+	vertical-align:middle;
+	line-height:30px;
+}
+#title{
+	font-family:arial;
+	font-size:12px;
+	position:absolute;
+	left:30px;
+}
+#close{
+	position:absolute;
+	font-size:15px;
+	top:0px;
+	right:0px;
+	padding:0 15px 0 15px;
+	transition:background 0.3s;
+	transition:color 0.3s;
+}
+#minimize{
+	position:absolute;
+	top:0px;
+	right:85px;
+	padding:0 15px 0 15px;
+	transition:background 0.3s;
+	transition:color 0.3s;
+}
+#maximize{
+	position:absolute;
+	top:0px;
+	right:40px;
+	padding:0 15px 0 15px;
+	transition:background 0.3s;
+	transition:color 0.3s;
+}
+#command_zone{
+	overflow-y:scroll;
+	width:100%;
+	background:#000;
+	position:absolute;
+	height:93%;
+	bottom:0px;
+}
+#cmd_logo{
+	width:20px;
+	height:20px;
+	background-image:url("cmd_logo.png");
+	position:absolute;
+	top:5px;
+	left:5px;
+}
+#close:hover{
+	background:red;
+	color:white;
+}
+#maximize:hover{
+	background:#f2f2f2;
+}
+#minimize:hover{
+	background:#f2f2f2;
+}
+#commandlar li{
+	list-style-type:none;
+	font-family:consolas;
+        font-size:14px;
+}
+#commandlar{padding:0px;}
+
+.input1{
+	background:#000;
+	color:white;
+	border:1px solid black;
+	font-family:consolas;
+	word-break:break-all;
+}
+
+.gorunmez_kursor{
+	display:none;
+}
+
+.COMPLETED{
+	word-break:break-all;
+}
+
+#GIZLI_INPUT{
+	opacity:0;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+}
